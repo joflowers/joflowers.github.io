@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tables Cheatsheet</title>
+    <link href="../../css/html_cheatsheet_styles/tables.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+</head>    
+
+<body>
+    <header>
+        <h1>A Cheatsheet on HTML Tables</h1>
+        
+    </header>
+
+    <main>
+        <table>
+            <!-- needs 9 rows(header,<tables>,<tr>,<td>,<th>,<..scope>,<..colspan>,<..rowspan>,<tb>,<tf>) -->
+            <!-- needs 4 columns(name, syntax, what it does,Does it have visual effect) -->
+            
+            <thead>
+                <th>Name</th>
+                <th>Syntax</th>
+                <th>What it does</th>
+                <th>Side Notes</th>
+            </thead>
+            <tr class="table">
+                <td>Tables</td>
+                <td>&lt; table &gt;</td>
+                <td>Creates the table structure</td>
+                <td></td>
+            </tr>
+            <tr class="tablerows">
+                <td>Table Rows</td>
+                <td>&lt; tr &gt</td>
+                <td>Implements table rows</td>
+                <td></td>
+            </tr>
+            <tr class="tablecells">
+                <td>Table Cells</td>
+                <td>&lt; td &gt</td>
+                <td>Implements the table data cells inside parent elements</td>
+                <td></td>
+            </tr>
+            <tr class="tableheadcell">
+                <td>Table Headcells</td>
+                <td>&lt; th &gt</td>
+                <td> Same as table cells except more specified for the use of header content</td>
+                <td></td>
+            </tr>
+            <tr class="scope">
+                <td>Scopes</td>
+                <td>&lt; ..scope=row/col &gt</td>
+                <td>Used to specify whether a table headcell is a row or column</td>
+                <td></td>
+            </tr>
+            <tr class="colspanning">
+                <td>Column Spanning</td>
+                <td>&lt; colspan="int" &gt</td>
+                <td>Spans out the content column area to 'int' amount of boxes</td>
+                <td></td>
+            </tr>
+            <tr class="rowspanning">
+                <td>Row Spanning</td>
+                <td>&lt; rowspan="int" &gt</td>
+                <td>Spans out the content row area to 'int amount of boxes</td>
+                <td></td>
+            </tr>
+            <tr class="tableheader">
+                <td>Tableheaders</td>
+                <td>&lt; thead &gt</td>
+                <td>Creates a holder for table header content</td>
+                <td></td>
+            </tr>
+            <tr class="tablebody">
+                <td>Table Bodys</td>
+                <td>&lt; tbody &gt</td>
+                <td>Creates a holder for table body content</td>
+                <td></td>
+            </tr>
+            <tr class="tablefooter">
+                <td>Table Footers</td>
+                <td>&lt; tfoot &gt</td>
+                <td>Creates a holder for table footer content</td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
