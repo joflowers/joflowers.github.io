@@ -1,0 +1,45 @@
+/* box checker:  border: 1px dotted red;*/
+
+/* body */
+nav {
+    padding: 0% 5%;
+    margin-bottom: 20px;
+    border: 1px dotted blue;
+
+}
+
+main {
+    padding: 0% 5%;
+}
+
+footer {
+    text-align: center;
+}
+
+/* classes */
+.button {
+    display: inline-block;
+    border: 1px dotted red;
+}
+
+.jumbotron {
+    width: auto;
+    height: 540px;
+    background-image: url(../images/bridge_backdrop.jpg);
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.portfolio_box h2 {
+    text-align: center;
+}
+
+/* pseudo classes */
+.button:hover {
+    color: lightskyblue;
+    font-size: larger;
+}
